@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conway's Game of Life</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="gameComponent.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="dashboard.php">🏠 Dashboard</a>
+    <a href="game.html">🧬 Game</a>
+    <a href="admin_login.php">🧬 Admin</a>
+    <a href="logout.php">🚪 Logout</a>
+  </nav>
+
+  <h1>Conway's Game of Life</h1>
+
+  <div id="controls">
+    <button id="start">▶️ Start</button>
+    <button id="stop">⏸ Stop</button>
+    <button id="next">⏭ Next</button>
+    <button id="step23">⏩ +23 Generations</button>
+    <button id="reset">♻️ Reset</button>
+
+    <select id="patternSelector">
+      <option value="">🎲 Load Pattern</option>
+      <option value="block">Block (Still Life)</option>
+      <option value="boat">Boat (Still Life)</option>
+      <option value="beehive">Beehive (Still Life)</option>
+      <option value="blinker">Blinker (Oscillator)</option>
+      <option value="beacon">Beacon (Oscillator)</option>
+      <option value="glider">Glider (Bonus)</option>
+      <option value="gosper">Gosper Glider Gun (Bonus)</option>
+      <option value="random">Random (Grad Only)</option>
+    </select>
+  </div>
+
+  <div id="info">
+    <p>Generation: <span id="generation">0</span></p>
+    <p>Population: <span id="population">0</span></p>
+  </div>
+
+  <div id="gridContainer"></div>
+</body>
+</html>

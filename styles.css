@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f5f5f5;
+}
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+#controls button, #controls select {
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+
+#gridContainer {
+  display: grid;
+  gap: 1px;
+  margin-top: 20px;
+}
+
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+.cell.alive {
+  background-color: black;
+}
+
