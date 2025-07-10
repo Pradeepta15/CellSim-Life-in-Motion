@@ -1,4 +1,3 @@
-CellSim: Life in Motion
 CellSim: Life in Motion is a dynamic and customizable cellular automata simulation inspired by Conway's Game of Life. Built with Python and Pygame, this simulation allows users to observe how simple rule-based entities evolve over time in a grid-based environment.
 
 🧬 Features
